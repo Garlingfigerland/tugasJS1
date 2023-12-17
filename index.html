@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculator</title>
+  <link href="index.css" rel="stylesheet">
+</head>
+<body> 
+  <div class="container">
+    <div class="calculator">
+      <h3>CALCULATOR</h3>
+        <div class="screen"><input type="text" name="display" id="display" disabled><br></div>
+        <input type="button"  name="seven" value="7" onclick="updateDisplay('7')">
+        <input type="button" name="eight" value="8" onclick="updateDisplay('8')">
+        <input type="button" name="nine" value="9" onclick="updateDisplay('9')">
+        <input type="button"class="operand" name="divide" value="/" onclick="updateDisplay('/')">
+        <br>
+        <input type="button"name="four" value="4" onclick="updateDisplay('4')">
+        <input type="button"name="five" value="5" onclick="updateDisplay('5')">
+        <input  type="button"name="six" value="6" onclick="updateDisplay('6')">
+        <input  type="button"class="operand" name="multiply" value="*" onclick="updateDisplay('*')">
+        <br>
+        <input type="button"name="one" value="1" onclick="updateDisplay('1')">
+        <input type="button"name="two" value="2" onclick="updateDisplay('2')">
+        <input type="button"name="three" value="3" onclick="updateDisplay('3')">
+        <input type="button"name="minus" value="-" onclick="updateDisplay('-')">
+        <br>
+        <input type="button" class="operand" name="clear" value="C" onclick="clearDisplay()">
+        <input type="button"name="zero" value="0" onclick="updateDisplay('0')">
+        <input type="button"class="operand" name="equal" value="=" onclick="calculate()">
+        <input type="button"class="operand" name="plus" value="+" onclick="updateDisplay('+')">
+        <br>
+        <h5><i>WIRATAMA</i></h5>
+      </div>
+      </div>
+    </div>
+    </body>
+
+   <script src="hallo.js"></script>
+
+  <script src="index.js"></script>
+</body>
+</html>
